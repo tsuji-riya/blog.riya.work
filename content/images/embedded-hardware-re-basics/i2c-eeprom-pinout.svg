@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" font-family="'Source Sans Pro','Hiragino Sans','Noto Sans JP',sans-serif">
+<rect x="0.5" y="0.5" width="599" height="319" rx="10" fill="#ffffff" stroke="#e0e0e0"/>
+<text x="300.0" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#2b2b2b">I2C EEPROM のピン配置(SOIC-8 / TSSOP-8、上から見た図)</text>
+<rect x="230" y="60" width="140" height="200" rx="6" fill="#3a3a3a"/>
+<circle cx="248" cy="78" r="6" fill="#666"/>
+<text x="300.0" y="168" text-anchor="middle" font-size="15" fill="#f0f0f0" font-weight="700">24Cxx</text>
+<rect x="204" y="85" width="26" height="14" fill="#9a9a9a"/>
+<rect x="370" y="85" width="26" height="14" fill="#9a9a9a"/>
+<text x="196" y="97" text-anchor="end" font-size="14" fill="#6b6b6b" font-weight="400">1</text>
+<text x="404" y="97" text-anchor="start" font-size="14" fill="#6b6b6b" font-weight="400">8</text>
+<text x="170" y="94" text-anchor="end" font-size="16" fill="#2b2b2b" font-weight="700">A0</text>
+<text x="170" y="110" text-anchor="end" font-size="12" fill="#6b6b6b" font-weight="400">アドレス</text>
+<text x="430" y="94" text-anchor="start" font-size="16" fill="#d1495b" font-weight="700">VCC</text>
+<text x="430" y="110" text-anchor="start" font-size="12" fill="#6b6b6b" font-weight="400">1.8〜5V</text>
+<rect x="204" y="131" width="26" height="14" fill="#9a9a9a"/>
+<rect x="370" y="131" width="26" height="14" fill="#9a9a9a"/>
+<text x="196" y="143" text-anchor="end" font-size="14" fill="#6b6b6b" font-weight="400">2</text>
+<text x="404" y="143" text-anchor="start" font-size="14" fill="#6b6b6b" font-weight="400">7</text>
+<text x="170" y="140" text-anchor="end" font-size="16" fill="#2b2b2b" font-weight="700">A1</text>
+<text x="170" y="156" text-anchor="end" font-size="12" fill="#6b6b6b" font-weight="400">アドレス</text>
+<text x="430" y="140" text-anchor="start" font-size="16" fill="#2b2b2b" font-weight="700">WP</text>
+<text x="430" y="156" text-anchor="start" font-size="12" fill="#6b6b6b" font-weight="400">Write Protect</text>
+<rect x="204" y="177" width="26" height="14" fill="#9a9a9a"/>
+<rect x="370" y="177" width="26" height="14" fill="#9a9a9a"/>
+<text x="196" y="189" text-anchor="end" font-size="14" fill="#6b6b6b" font-weight="400">3</text>
+<text x="404" y="189" text-anchor="start" font-size="14" fill="#6b6b6b" font-weight="400">6</text>
+<text x="170" y="186" text-anchor="end" font-size="16" fill="#2b2b2b" font-weight="700">A2</text>
+<text x="170" y="202" text-anchor="end" font-size="12" fill="#6b6b6b" font-weight="400">アドレス</text>
+<text x="430" y="186" text-anchor="start" font-size="16" fill="#7d5ba6" font-weight="700">SCL</text>
+<text x="430" y="202" text-anchor="start" font-size="12" fill="#6b6b6b" font-weight="400">Clock</text>
+<rect x="204" y="223" width="26" height="14" fill="#9a9a9a"/>
+<rect x="370" y="223" width="26" height="14" fill="#9a9a9a"/>
+<text x="196" y="235" text-anchor="end" font-size="14" fill="#6b6b6b" font-weight="400">4</text>
+<text x="404" y="235" text-anchor="start" font-size="14" fill="#6b6b6b" font-weight="400">5</text>
+<text x="170" y="232" text-anchor="end" font-size="16" fill="#2b2b2b" font-weight="700">GND</text>
+<text x="170" y="248" text-anchor="end" font-size="12" fill="#6b6b6b" font-weight="400"></text>
+<text x="430" y="232" text-anchor="start" font-size="16" fill="#2f6fb0" font-weight="700">SDA</text>
+<text x="430" y="248" text-anchor="start" font-size="12" fill="#6b6b6b" font-weight="400">Data</text>
+<text x="300.0" y="298" text-anchor="middle" font-size="13" fill="#6b6b6b" font-weight="400">A0〜A2 が全部 GND ならアドレスは 0x50</text>
+</svg>

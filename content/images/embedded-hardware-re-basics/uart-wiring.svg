@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" width="560" font-family="'Source Sans Pro','Hiragino Sans','Noto Sans JP',sans-serif">
+<rect x="0.5" y="0.5" width="559" height="299" rx="10" fill="#ffffff" stroke="#e0e0e0"/>
+<text x="280.0" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#2b2b2b">UART の配線(TX と RX はクロス)</text>
+<rect x="40" y="50" width="170" height="220" rx="8" fill="#f4f6f8" stroke="#c9d1d9"/>
+<text x="125.0" y="76" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="700">USB-TTL</text>
+<circle cx="210" cy="112" r="5" fill="#2b2b2b"/>
+<text x="198" y="117" text-anchor="end" font-size="15" fill="#2b2b2b" font-weight="700">GND</text>
+<circle cx="210" cy="156" r="5" fill="#2b2b2b"/>
+<text x="198" y="161" text-anchor="end" font-size="15" fill="#2b2b2b" font-weight="700">TX</text>
+<circle cx="210" cy="200" r="5" fill="#2b2b2b"/>
+<text x="198" y="205" text-anchor="end" font-size="15" fill="#2b2b2b" font-weight="700">RX</text>
+<circle cx="210" cy="244" r="5" fill="#2b2b2b"/>
+<text x="198" y="249" text-anchor="end" font-size="15" fill="#2b2b2b" font-weight="700">VCC</text>
+<rect x="350" y="50" width="170" height="220" rx="8" fill="#f4f6f8" stroke="#c9d1d9"/>
+<text x="435.0" y="76" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="700">機器の UART</text>
+<circle cx="350" cy="112" r="5" fill="#2b2b2b"/>
+<text x="362" y="117" text-anchor="start" font-size="15" fill="#2b2b2b" font-weight="700">GND</text>
+<circle cx="350" cy="156" r="5" fill="#2b2b2b"/>
+<text x="362" y="161" text-anchor="start" font-size="15" fill="#2b2b2b" font-weight="700">TX</text>
+<circle cx="350" cy="200" r="5" fill="#2b2b2b"/>
+<text x="362" y="205" text-anchor="start" font-size="15" fill="#2b2b2b" font-weight="700">RX</text>
+<circle cx="350" cy="244" r="5" fill="#2b2b2b"/>
+<text x="362" y="249" text-anchor="start" font-size="15" fill="#2b2b2b" font-weight="700">VCC</text>
+<path d="M210,112 C300,112 260,112 350,112" fill="none" stroke="#2b2b2b" stroke-width="3"/>
+<path d="M210,156 C300,156 260,200 350,200" fill="none" stroke="#2f6fb0" stroke-width="3"/>
+<path d="M210,200 C300,200 260,156 350,156" fill="none" stroke="#3a8f5c" stroke-width="3"/>
+<path d="M210,244 C300,244 260,244 350,244" fill="none" stroke="#bbbbbb" stroke-width="3" stroke-dasharray="6 5"/>
+<path d="M271.0,235 L289.0,253 M289.0,235 L271.0,253" stroke="#d1495b" stroke-width="3.5"/>
+<text x="280.0" y="270" text-anchor="middle" font-size="13" fill="#d1495b" font-weight="700">VCC はつながない</text>
+</svg>
